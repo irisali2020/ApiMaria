@@ -4,15 +4,27 @@
 
 import express from "express";
 
+import productsRouter from "./src/routes/products.router.js";
+
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hola mundo');
+app.use(express.json());
+app.use('/api/products',productsRouter); 
+
+app.get("/", (req, res) => {
+    res.send(
+`<h1>Bienvenido a la API de productos</h1>
+<p>Servidor funcionando correctamente</p>
+`);
 });
+
+
 
 const PORT = 3000;
 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+
+// DESDE AQUI EN ADELANTE ESTA EL CODIGO PARA CREAR LA COLECCION DE PRODUCTOS EN FIREBASE, PERO NO SE ESTA USANDO EN EL SERVIDOR, SOLO SE DEJO COMO REFERENCIA
 
 // const productsCollection = collection(db, "products");
 
