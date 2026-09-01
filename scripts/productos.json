@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "nombre": "Bandeja de Cerámica",
         "precio": 10.0,
         "categoria": "cocina",
@@ -958,3 +957,4 @@
         "condicion": "usado"
     }
 ]
+

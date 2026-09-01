@@ -2,14 +2,25 @@
 // // 1. Agregamos 'collection' a la importación
 // import { addDoc, collection, getDocs } from "firebase/firestore";
 
-import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
 
+import express from "express";
+import cors from "cors";
 import productsRouter from "./src/routes/products.router.js";
+import categoriesRouter from "./src/routes/categories.router.js";
 
 const app = express();
 
+// Esta es la línea mágica. Le dice a Express: 
+// "Todo lo que esté dentro de la carpeta 'public', hazlo visible para el Frontend"
+app.use(express.static('public'));
+
+
 app.use(express.json());
-app.use('/api/products',productsRouter); 
+app.use(cors());
+app.use("/api/products",productsRouter); 
+app.use("/api/categories", categoriesRouter);
 
 app.get("/", (req, res) => {
     res.send(
@@ -18,9 +29,22 @@ app.get("/", (req, res) => {
 `);
 });
 
+app.get("/up", (req, res) => {
+    res.json({
+        status: "ok",
+        message: "Servidor activo",
+    });
+});
+
+//Midleware
+
+app.use((req, res ) =>{
+    res.status(404).json({error: 'Ruta no encontrada'})
+})
 
 
-const PORT = 3000;
+
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 

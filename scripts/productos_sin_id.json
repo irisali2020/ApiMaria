@@ -1,0 +1,871 @@
+[
+  {
+    "nombre": "Bandeja de Cerámica",
+    "precio": 10,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/bandejadeceramica.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Bandejas Navideñas",
+    "precio": 20,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/bandejasnavidenas.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Platos Pequeños Navideños con salero y pimientero",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/platosnavidenos_saleros.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Cesta para Ropa",
+    "precio": 10,
+    "categoria": "lavanderia",
+    "imagenes": [
+      "img/cestapararopa.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Cesta para Ropa - 2",
+    "precio": 10,
+    "categoria": "lavanderia",
+    "imagenes": [
+      "img/cestapararopa2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Coctelera de Vino - 27 piezas",
+    "precio": 30,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/coctelera_vino.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "DVD Marca LG,control,cables y peliculas",
+    "precio": 10,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/ControlDVDcables.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Cuatro - Marca",
+    "precio": 90,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/CuatroCaraInterna.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Cuatro - cara posterior",
+    "precio": 90,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/CuatroForro1.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Cuatro - cara anterior",
+    "precio": 90,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/CuatroForro2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "DVD Marca LG con cable y control",
+    "precio": 10,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/DVDLG.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Exprimidor Eléctrico de Jugo",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/exprimidorJugo.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Exprimidor Eléctrico de Jugo - 2",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/exprimidorjugo2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Exprimidor Eléctrico de Jugo - 3",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/exprimidor3.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Freidora Eléctrica",
+    "precio": 50,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/freidora.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de Ollas y Sartenes",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/juegosartenes.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de sartenes - 2",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/juegosartenes2.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de cubiertos - 24 piezas",
+    "precio": 15,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/juegocubiertos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de cuchillos Holstein",
+    "precio": 45,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/juegocuchillos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de cuchillos - 2da foto",
+    "precio": 45,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/juegocuchillos2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de Ollas IMUSA - 5 piezas",
+    "precio": 450,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/ollas.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Paragua Playero",
+    "precio": 15,
+    "categoria": "playa",
+    "imagenes": [
+      "img/paragua_playero_cara_externa.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Paragua playero - cara interna",
+    "precio": 15,
+    "categoria": "playa",
+    "imagenes": [
+      "img/paragua_playero_cara_interna.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Paragua con forro",
+    "precio": 15,
+    "categoria": "playa",
+    "imagenes": [
+      "img/paraguaconforro.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de platos para sopa con cucharas ",
+    "precio": 20,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/platos_cucharas_sopa.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de muebles - sofá de 2 puestos y 2 sillones",
+    "precio": 250,
+    "categoria": "sala",
+    "imagenes": [
+      "img/sillon.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de muebles - sofá 2 puestos y 2 sillones",
+    "precio": 250,
+    "categoria": "sala",
+    "imagenes": [
+      "img/sofa_2ptos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Tostiarepa - 4 unidades",
+    "precio": 10,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tostiarepa.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Tostiarepa - 4 unidades",
+    "precio": 10,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tostiarepa1.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Tostiempanadas - 2 unidades",
+    "precio": 10,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tostiempanadas2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Tostiempanadas - 2 unidades",
+    "precio": 10,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tostiempanadas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Televisor Marca Vizio - 37 pulgadas",
+    "precio": 50,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/tv_marca_vizio.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Vajilla para 8 personas",
+    "precio": 100,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/vajilla8personas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Contenedores refractarios - 15 unidades ",
+    "precio": 75,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/contenedoresrefractarios.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Paraban",
+    "precio": 120,
+    "categoria": "sala",
+    "imagenes": [
+      "img/paraban.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Peso para la cocina",
+    "precio": 8,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/pesococina.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Adorno de Lladró",
+    "precio": 90,
+    "categoria": "recibo",
+    "imagenes": [
+      "img/adornolladro.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Juego de vasos navideños",
+    "precio": 8,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/vasosnavidenos.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Maletin Marca Bravo",
+    "precio": 10,
+    "categoria": "viaje",
+    "imagenes": [
+      "img/maletinbravo.jpg"
+    ],
+    "vendido": true,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Maletin grande y extensible",
+    "precio": 30,
+    "categoria": "viaje",
+    "imagenes": [
+      "img/maletin.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesa de noche",
+    "precio": 5,
+    "categoria": "dormitorio",
+    "imagenes": [
+      "img/mesitadenoche.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Sofá cama matrimonial",
+    "precio": 50,
+    "categoria": "dormitorio",
+    "imagenes": [
+      "img/sofaextendido.jpg"
+    ],
+    "vendido": true,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Sofá cama matrimonial",
+    "precio": 50,
+    "categoria": "dormitorio",
+    "imagenes": [
+      "img/sofacama.jpg"
+    ],
+    "vendido": true,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Sofá cama matrimonial",
+    "precio": 50,
+    "categoria": "dormitorio",
+    "imagenes": [
+      "img/sofacama1.jpg"
+    ],
+    "vendido": true,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesa auxiliar",
+    "precio": 10,
+    "categoria": "sitio de trabajo",
+    "imagenes": [
+      "img/mesaauxiliar.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Monitor con teclado y accesorio",
+    "precio": 20,
+    "categoria": "estudio",
+    "imagenes": [
+      "img/juegomonitorteclado.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Pyle Home - reproductor de audio",
+    "precio": 15,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/pylehome.jpg"
+    ],
+    "vendido": true,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Escritorio",
+    "precio": 10,
+    "categoria": "estudio",
+    "imagenes": [
+      "img/escritorio.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Silla plástica",
+    "precio": 8,
+    "categoria": "varios",
+    "imagenes": [
+      "img/sillaplastica.jpg"
+    ],
+    "vendido": true,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Video Juego - Sega Genesis con 9 juegos",
+    "precio": 100,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/segaconcontroles.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mueble para Televisor",
+    "precio": 30,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/muebletelevisor.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Tizanera",
+    "precio": 30,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tizanera.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Tizanera - detalles",
+    "precio": 30,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tizaneradetalles.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Tizanera - tipos",
+    "precio": 30,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/tizaneratipos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Alcayatas",
+    "precio": 15,
+    "categoria": "balcon",
+    "imagenes": [
+      "img/alcayatas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Castillo Epoca Medieval",
+    "precio": 110,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/castillo1.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Castillo Epoca Medieval",
+    "precio": 110,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/castillo2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Castillo Epoca Medieval",
+    "precio": 110,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/castillo3.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Zapatos deportivos - #37",
+    "precio": 20,
+    "categoria": "ropa",
+    "imagenes": [
+      "img/zapatosdeportivoslonaycuero.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Zapatos deportivos - #37",
+    "precio": 20,
+    "categoria": "ropa",
+    "imagenes": [
+      "img/zapatoslonaycuero.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mocasin - #37",
+    "precio": 15,
+    "categoria": "ropa",
+    "imagenes": [
+      "img/mocasines1.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Bastón extensible",
+    "precio": 15,
+    "categoria": "salud",
+    "imagenes": [
+      "img/baston.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Bastón extensible - 2",
+    "precio": 15,
+    "categoria": "salud",
+    "imagenes": [
+      "img/baston2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "DECO Directv",
+    "precio": 10,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/decodirectv.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de Poker",
+    "precio": 50,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/juegodepoker.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de Poker - 2",
+    "precio": 50,
+    "categoria": "entretenimiento",
+    "imagenes": [
+      "img/juegodepoker2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Vajilla - 52 piezas",
+    "precio": 150,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/vajillaazul1.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Vajilla - 52 piezas",
+    "precio": 150,
+    "categoria": "cocina",
+    "imagenes": [
+      "img/vajillaazul2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de Comedor de 6 puestos",
+    "precio": 230,
+    "categoria": "comedor",
+    "imagenes": [
+      "img/Comedor6Puestos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mueble Auxiliar Gabinete",
+    "precio": 100,
+    "categoria": "comedor",
+    "imagenes": [
+      "img/MuebleAuxiliarGabinete.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesa de Recibo",
+    "precio": 50,
+    "categoria": "Sala",
+    "imagenes": [
+      "img/MesitaRecibo.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesita Auxiliar 3 Niveles",
+    "precio": 30,
+    "categoria": "Sala",
+    "imagenes": [
+      "img/MesitaAuxiliar3Niveles.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Florero",
+    "precio": 20,
+    "categoria": "Adorno",
+    "imagenes": [
+      "img/Florero.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Jarra",
+    "precio": 20,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/Jarra.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Jarra con Juego de 10 copas",
+    "precio": 40,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/JarraConJUego10Copas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Silla Estilo Americano",
+    "precio": 5,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/SillaTipoAmericana.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesa auxiliar de hierro y vidrio con ruedas",
+    "precio": 30,
+    "categoria": "varios",
+    "imagenes": [
+      "img/MesaAuxiliarHierroyVidrio.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Juego de cubiertos - 8 personas",
+    "precio": 45,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/Juego de cubiertos 8 personas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "Nuevo"
+  },
+  {
+    "nombre": "Juego de cubiertos - 8 personas - 2da foto",
+    "precio": 45,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/JuegodeCubiertos8personas-3.jpg"
+    ],
+    "vendido": false,
+    "condicion": "nuevo"
+  },
+  {
+    "nombre": "Mantel para mesa de 6 puestos",
+    "precio": 25,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/MantelConFloresRojasyAmarillas.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mantel con servilletas para mesa de 6 puestos",
+    "precio": 25,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/MantelSinColores6ptos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Vajilla para 8 personas",
+    "precio": 130,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/VajillaDe8puestos.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "4 libros de Harry Potter con juego",
+    "precio": 50,
+    "categoria": "Entretenimiento",
+    "imagenes": [
+      "img/LibrosDeHarryPotteryJuego2.jpg" ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "4 libros de Harry Potter con juego - foto 2",
+    "precio": 50,
+    "categoria": "Entretenimiento",
+    "imagenes": [
+      "img/LibrosDeHarryPotteryJuego.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesitas Auxiliares - 2 unidades",
+    "precio": 25,
+    "categoria": "Miscelaneos",
+    "imagenes": [
+      "img/MesitasAuxiliaresPlegables1.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Mesitas Auxiliares - 2 unidades",
+    "precio": 25,
+    "categoria": "Miscelaneos",
+    "imagenes": [
+      "img/MesitasAuxiliaresPlegables2.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  },
+  {
+    "nombre": "Carrito para Verduras con ruedas",
+    "precio": 25,
+    "categoria": "Cocina",
+    "imagenes": [
+      "img/carritoDeVerduras.jpg"
+    ],
+    "vendido": false,
+    "condicion": "usado"
+  }
+]

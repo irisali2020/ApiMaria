@@ -4,7 +4,10 @@ const products = [{
        id: 1, nombre: "Lampara", precio: 100, categoria: "Decoración", imagen: "https://via.placeholder.com/150", vendido: false, condicion: "Nuevo"},
         {id: 2, nombre: "Silla", precio: 200, categoria: "Muebles", imagen: "https://via.placeholder.com/150", vendido: false, condicion: "Nuevo"}, ];    
 
-export const getProducts = (req, res) => {
+import { fetchProducts } from "../models/Product.js"
+
+export const getProducts = async (req, res) => {
+    const products = await fetchProducts();
     res.json(products);
 };
 
