@@ -1,16 +1,13 @@
 import db from "../config/firebase.js";
-
-import { collection, getDoc, doc, addDoc, updateDoc, deleteDoc } from "firebase/firestore";
+import { collection, getDoc, doc, addDoc, updateDoc, deleteDoc, getDocs } from "firebase/firestore";
 
 const productsCollection = collection(db, "products");
 
-// CRUD - Create, Read, Update, Delete
+// Pasamos un objeto vacío por defecto por si llamas a la función sin parámetros
+export const fetchProducts = async ({ search, category } = {}) => { 
 
-export const fetchProducts = async () => {
-
-    const snapshot = await getDoc(productsCollection);
-
-    const products = [];
+    const snapshot = await getDocs(productsCollection);
+    let products = [];
 
     snapshot.forEach((doc) => {
         products.push({
@@ -19,8 +16,22 @@ export const fetchProducts = async () => {
         });
     });
 
-    return products;
+    // 1. Filtrar por nombre (búsqueda)
+    if (search) {
+        const busqueda = search.toLowerCase();
+        products = products.filter(product => 
+            product.nombre.toLowerCase().includes(busqueda)
+        );
+    }
 
+    // 2. Filtrar por categoría (opcional, si también lo usas en el front)
+    if (category) {
+        products = products.filter(product => 
+            product.categoria === category
+        );
+    }
+
+    return products;
 };
 
 // Obtener un solo producto

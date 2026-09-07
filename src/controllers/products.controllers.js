@@ -4,8 +4,14 @@
 
 import { fetchProducts, getProductById as getProductByIdModel, createProduct as createProductModel, updateProduct as updateProductModel, deleteProduct as deleteProductModel,  } from "../models/Product.js"
 
+
 export const getProducts = async (req, res) => {
-    const products = await fetchProducts();
+    // 1. Capturamos la variable 'search' (y 'category' o 'page' si las necesitas) que viene de la URL del front
+    const { search, category } = req.query;
+
+    // 2. Le pasamos esas variables a tu modelo para que sepa qué buscar
+    const products = await fetchProducts({ search, category }); 
+    
     res.json(products);
 };
 
