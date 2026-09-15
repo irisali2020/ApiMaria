@@ -48,6 +48,9 @@ const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 
+// Exportamos la app para que Vercel pueda usarla como función serverless
+export default app;
+
 // DESDE AQUI EN ADELANTE ESTA EL CODIGO PARA CREAR LA COLECCION DE PRODUCTOS EN FIREBASE, PERO NO SE ESTA USANDO EN EL SERVIDOR, SOLO SE DEJO COMO REFERENCIA
 
 // const productsCollection = collection(db, "products");
